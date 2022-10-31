@@ -40,7 +40,7 @@ To do this, first copy `src/auth_config.json.example` into a new file in the sam
 
 ### Configure redirect
 
-Configure line 38 in src/App.js with the default login URL of an application which the app will redirect to after the user accepts the invitation. This will ensure the user is logged in when they are redirected to the second application. Currently, it is configured to redirect to https://jwt.io
+Configure line 38 in src/App.js with the URL of a second application to which the user will be redirected after the user accepts the invitation. Redirecting to the login URL of the second application will ensure the user is logged in when they are redirected. Currently, it is configured to redirect to https://jwt.io
 
 ## Deployment
 
