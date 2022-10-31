@@ -44,7 +44,7 @@ Configure line 38 in src/App.js with the default login URL of an application whi
 
 ## Deployment
 
-This sample must be deployed to an HTTPS environment because Auth0 will not accept an HTTP URL as an Application Login URI. The Application Login URI is used to generate the invitation link which is emailed to the new member.
+This sample must be deployed to an HTTPS environment such as Heroku because Auth0 will not accept an HTTP URL as an Application Login URI. The Application Login URI is used to generate the invitation link which is emailed to the new member.
 
 ### Compiles and minifies for production
 
